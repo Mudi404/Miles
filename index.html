@@ -7,38 +7,37 @@
     <style>
         /* Reset Styles */
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
-        
-        /* Background */
+
+        /* Black Background */
         body {
-            background: url('https://source.unsplash.com/1080x1920/?technology,dark') no-repeat center center/cover;
+            background: black; 
             display: flex; justify-content: center; align-items: center;
             height: 100vh; text-align: center; padding: 20px;
         }
-        
+
         /* Main Container */
         .container {
-            background: rgba(255, 255, 255, 0.1);
             padding: 20px; width: 90%; max-width: 400px;
-            border-radius: 15px; backdrop-filter: blur(10px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
         }
-        
+
         /* Title */
         h1 { 
-            color: white; font-size: 26px; margin-bottom: 15px;
+            color: #00aaff; font-size: 26px; margin-bottom: 15px;
             text-transform: uppercase; letter-spacing: 2px;
         }
-        
+
         /* Link Buttons */
         .link {
             display: block; margin: 10px auto; padding: 15px;
-            width: 100%; max-width: 300px; background: rgba(255, 255, 255, 0.2);
-            color: white; text-decoration: none; border-radius: 10px;
-            font-size: 18px; font-weight: bold; transition: all 0.3s ease-in-out;
+            width: 100%; max-width: 300px; background: #222;
+            color: #00aaff; text-decoration: none; border-radius: 10px;
+            font-size: 18px; font-weight: bold; border: 2px solid #00aaff;
+            transition: all 0.3s ease-in-out;
         }
-        
+
         .link:hover {
-            background: white; color: black; transform: scale(1.05);
+            background: #00aaff; color: black; transform: scale(1.05);
         }
     </style>
 </head>
